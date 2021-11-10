@@ -1,0 +1,89 @@
+body {
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(223, 47%, 23%);
+
+    font-family: 'Red Hat Display', sans-serif;
+    font-size:16px;
+    height: 100%;
+    width: 100%;
+}
+.app {
+    width:450px;
+    height:auto;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 1em;
+    overflow: hidden;
+}
+button {
+    display: block;
+    margin:auto;
+    width: 80%;
+    padding:0.5em;
+    font-weight: 700;
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    border-radius: 1em;
+    margin-top: 0.5em;
+    padding: 1em;
+    color: hsl(225, 100%, 98%);
+}
+h1, p{
+    text-align: center;
+}
+p {
+    color: hsl(224, 23%, 55%);
+}
+.annualPlan {
+    width: 80%;
+    margin: auto;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 1em;
+    position:relative;
+} 
+#music-icon {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.annual-text {
+    display: inline-block;
+    position:relative;
+    left:20%;
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+}
+a {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.cost {
+    color:hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+.cancel {
+    background-color: white;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+@media screen and (max-width: 500px) {
+    body {
+        background-image: url("images/pattern-background-mobile.svg");
+    }
+    .app {
+        width: 90%;
+        height: 90%;
+    }
+}
