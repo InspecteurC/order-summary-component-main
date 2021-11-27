@@ -34,6 +34,10 @@ button {
     padding: 1em;
     color: hsl(225, 100%, 98%);
 }
+button:hover {
+    background-color:hsl(245, 48%, 49%);
+    cursor:pointer;
+}
 h1, p{
     text-align: center;
 }
@@ -68,6 +72,9 @@ a {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
+a:hover {
+    text-decoration: none;
+}
 .cost {
     color:hsl(224, 23%, 55%);
     font-weight: 500;
@@ -77,6 +84,9 @@ a {
     color: hsl(224, 23%, 55%);
     margin-bottom: 2em;
     margin-top: 1em;
+}
+.cancel:hover {
+    background-color: white;
 }
 @media screen and (max-width: 500px) {
     body {
